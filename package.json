@@ -1,0 +1,44 @@
+{
+  "name": "react-icon-registry",
+  "version": "1.0.6",
+  "description": "A TypeScript package for managing and utilizing icons in React applications with type safety and flexibility.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "release": "npm run build && npm publish"
+  },
+  "author": "Piyushkumar Dubey",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.4",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "typescript",
+    "react-icon-registry",
+    "react-icons"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piyush-Use-Personal/react-icon-registry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Piyush-Use-Personal/react-icon-registry/issues"
+  },
+  "homepage": "https://github.com/Piyush-Use-Personal/react-icon-registry#readme"
+
+}

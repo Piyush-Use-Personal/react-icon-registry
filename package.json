@@ -1,6 +1,6 @@
 {
   "name": "react-icon-registry",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A TypeScript package for managing and utilizing icons in React applications with type safety and flexibility.",
   "main": "dist/index.js",
   "files": [
